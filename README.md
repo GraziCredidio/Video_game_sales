@@ -5,9 +5,10 @@
 - [Data source](#Data-source)
 - [Tools](#Tools)
 - [Methodology](#Methodology)
-- [Data Exploration](#Data-Exploration)
+- [Key Findings](#Key-Findings)
   - [General Trends](##General-Trends-and-Quantities)
   - [Market Segmentation](##Market-Segmentation)
+  - [Publishers behind the most successful games](##Publishers-behind-the-most-successful-games)
 
 
 # Project Overview
@@ -33,7 +34,7 @@ The DDL employed can be found in the file "video_games_database_design".
 
 ![Database_design](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/c1b714ab-20af-4d90-9a24-ed35026d617a)
 
-# Key findings 
+# Key Findings 
 A series of SQL queries were carried out and data exploration was split into 5 main blocks: 
 - General trends and quantities
 - Globally successful games
