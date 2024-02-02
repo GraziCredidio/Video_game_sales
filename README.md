@@ -49,7 +49,6 @@ An initial exploration of global numbers.
 
 Action games were the leader both in the number of games released (3346) and global sales (1739.4 million units sold), comprising almost 20% of the total sales. The genres of strategy and adventure released more games than Puzzle, and yet sold less. Some hypotheses can be formulated from that: the industry did not launch many puzzle games, but the ones on the market are quite popular, and/or adventure and strategy games are not as popular among gamers. 
 
-
  ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e733ff25-d500-493f-9ff5-a9b5652dfff0) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/63553b53-563d-477e-abdf-4594a9c91b51)
 
 
@@ -72,24 +71,28 @@ PlayStation 2 (PS2) was the platform that sold the most and publishers released 
 
 ## Market segmentation
 
-Investigating how different cultural backgrounds influence which games and genres are more popular and the need for market segmentation in the games industry.
+Investigating how different the preferences for games and genres are in each region and the need for market segmentation in the games industry.
 
 
-- *Top 10 games: global and regional successes*
+- *Top 10 games: global versus regional successes and contribution of regions to global sales*
   
-The query below outputs the top 10 games in terms of global sales and the level of popularity of these games in each region. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Eurupe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
+The query below outputs the top 10 games in terms of global sales and the level of popularity of these games in each region. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Europe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
 
 Another important observation is that 7 of the top 10 games were published by Nintendo, showcasing how prominent the company is in the field of games.
 
+Only two games (Pokemon Red/Blue and New Super Mario Bros.) did not have a clear dominance of one or two regions over the other(s). In general, the North American market contributed the most to the sales of all top 10 games. However, it is unclear whether this phenomenon is simply because of a higher population (consequently, more people buying), due to differences in culture, purchasing power, or even the socioeconomic context of these major regions by the time the games were released. 
 
-![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/f8ad21a5-72c4-404d-8cf0-e81a4415755f) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/a5206c7c-48b5-4fbc-b4a4-feb1811c1564)
+
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/88944398-f90a-4c1e-a8cc-4ffc47e79233) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e6e676bd-8882-472d-8580-578f79c252da)
 
 
 - *Genre preferences*
   
-As shown before, it seemed obvious that North America, Europe and Japan have different tastes in terms of games and game genres. Indeed, Role-Playing games 
+As shown before, it seemed obvious that North America, Europe and Japan have different tastes in terms of games and game genres. Indeed, Role-Playing games are very popular among Japanese, while Action games are the preference among Westerners (Europeans and North Americans). 
+
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/cdc328bd-5ab9-415a-b481-b2d0c80ea70b) 
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/9c198500-044c-43f8-b54a-c77866e59795)
 
 
-![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/cdc328bd-5ab9-415a-b481-b2d0c80ea70b) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/9c198500-044c-43f8-b54a-c77866e59795)
 
-
+- *Most acclaimed games by the critics and users*
