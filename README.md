@@ -22,7 +22,7 @@ The original dataset can be found on [Kaggle](https://www.kaggle.com/datasets/th
 # Tools
 - Microsoft Excel: initial data cleaning and manipulation
 - SQL: database design, data cleaning, and exploration
-- Tableau: visualization and dashboard construction. Click [here](https://public.tableau.com/app/profile/graziella.credidio/viz/Videogames_17056915247530/Dashboard) to access this content.
+- Tableau: visualization and dashboard construction. *Click [here](https://public.tableau.com/app/profile/graziella.credidio/viz/Videogames_17056915247530/Dashboard) to access this content.*
 
 # Methodology 
 ## Data cleaning
