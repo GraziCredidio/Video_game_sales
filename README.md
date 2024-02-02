@@ -34,12 +34,18 @@ The DDL employed can be found in the file "video_games_database_design".
 
 ![Database_design](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/c1b714ab-20af-4d90-9a24-ed35026d617a)
 
+## Exploratory analysis
+SQL (MySQL) was used to explore trends and generate insights into the video games industry. The main topics addressed in this project were general trends, market segmentation and leading game publishers, however it was not limited to these. 
+
+## Dashboard construction
+A reconstruction of the relational database was made inside Tableau by importing and joining the tables. Some key findings were chosen to be displayed. Interactive plots were generated and the dashboard can be accessed [here](https://public.tableau.com/app/profile/graziella.credidio/viz/Videogames_17056915247530/Dashboard). 
+
+
+
 # Key Findings 
-A series of SQL queries were carried out and data exploration was split into 5 main blocks: 
+A series of SQL queries were carried out and data exploration was split into 3 main blocks: 
 - General trends and quantities
-- Globally successful games
-- Most popular platforms
-- Regional market trends
+- Market segmentation
 - Publishers behind the most successful games
 
 ## General Trends
