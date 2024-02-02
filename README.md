@@ -91,7 +91,7 @@ North America, Europe and Japan have different tastes in terms of games and game
 
 - *Top 10 games: global versus regional successes and contribution of regions to global sales*
   
-To further investigate on regional differences, the query below outputs the top 10 games in terms of global sales, their publishers, genres, their popularity in each region and the contribution of these regions to global sales. 
+To further investigate regional differences, the query below outputs the top 10 games in terms of global sales, their publishers, genres, their popularity in each region and the contribution of these regions to global sales. 
 
 Out of the 12 existing genres (in this dataset), 7 had games among the 10 top sellers. No game belonging to the genres adventure, fighting, miscellaneous, simulation and strategy is on the top 10 best sellers. A sales pattern seems to be in place: shooter and action games are not popular in Japan, while they are well-accepted in North America and Europe. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Europe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
 
@@ -113,13 +113,10 @@ As suspected, Nintendo is the leader in the number of copies sold globally given
 
 - *Identifying publishers that may rely on their "one-hit wonder"*
 
-Some companies may have their revenue relying mostly upon a single game.
+Some companies may have their revenue relying mostly upon a single release. It is possible to investigate this matter by analyzing how much of a publisher's sales come from their top-seller game. This may indicate different strategies across publishers. For example, Electronic Arts seems to invest in publishing a high number of games, even though the sales performance of each title is not a prominent portion of their revenue. On the other hand, Nintendo releases fewer games, however, they are enough to put the company in the first place in sales. No matter the strategy a company adopts, having the revenue coming mostly from a single source is risky. A total of 194 publishers (out of 609) have more than 90% of their sales coming from one game, which may indicate that the games industry is highly competitive.
 
 
-## User vs. Critics games scores
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/6647ebcc-31fd-450c-9393-ff32c1a82525) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/a84b6a3f-92a9-4d83-99b6-196d1dd38481)
 
 
-- *Most acclaimed games by the critics*
-  
--  *Most acclaimed games by the users*
 
