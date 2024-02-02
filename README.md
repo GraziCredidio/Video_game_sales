@@ -7,7 +7,7 @@
 - [Methodology](#Methodology)
 - [Data Exploration](#Data-Exploration)
   - [General Trends](##General-Trends-and-Quantities)
-  - [The Most Popular Games Around the Globe](##The-Most-Popular-Games-Around-the-Globe)
+  - [Market Segmentation](##Market-Segmentation)
 
 
 # Project Overview
@@ -21,7 +21,7 @@ The original dataset can be found on [Kaggle](https://www.kaggle.com/datasets/th
 # Tools
 - Microsoft Excel: initial data cleaning and manipulation
 - SQL: database design, data cleaning, and exploration
-- Tableau: visualization and dashboard construction
+- Tableau: visualization and [dashboard](https://public.tableau.com/app/profile/graziella.credidio/viz/Videogames_17056915247530/Dashboard) construction
 
 # Methodology 
 ## Data cleaning
@@ -42,35 +42,54 @@ A series of SQL queries were carried out and data exploration was split into 5 m
 - Publishers behind the most successful games
 
 ## General Trends
-- *Which game genre sold the most?*
+
+An initial exploration of global numbers.
+
+- *Which genre sold the most?*
 
 Action games were the leader both in the number of games released (3346) and global sales (1739.4 million units sold), comprising almost 20% of the total sales. The genres of strategy and adventure released more games than Puzzle, and yet sold less. Some hypotheses can be formulated from that: the industry did not launch many puzzle games, but the ones on the market are quite popular, and/or adventure and strategy games are not as popular among gamers. 
 
 
-![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/63553b53-563d-477e-abdf-4594a9c91b51) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e733ff25-d500-493f-9ff5-a9b5652dfff0)
+ ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e733ff25-d500-493f-9ff5-a9b5652dfff0) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/63553b53-563d-477e-abdf-4594a9c91b51)
 
 
 
-- *Which year sold the most? Were the sales driven by the sole number of games released or due to more successful games?*
+- *Which year sold the most?*
   
-The year 2008 had the highest global sales (with over 684 million units sold), however, 2009 was the year with the highest amount of games released (1438 games in 2009 versus the 1435 games in 2008). It seems that, despite being lower in number, the games launched in 2008 were more popular than the ones released in 2009. Another hypothesis is that 
-
-
-As one could expect, the year with the lowest number of games released and global sales was 1980 (not shown in the image).
+The year 2008 had the highest global sales (with over 684 million units sold), however, 2009 was the year with the highest amount of games released (1438 games in 2009 versus the 1435 games in 2008). It seems that, despite being lower in number, the games launched in 2008 were more popular than the ones released in 2009. As one could expect, the year with the lowest number of games released and global sales was 1980 (not shown in the image).
 
 ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e618ba9a-73a4-4d29-b758-02042bb4350e) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/b93323e0-eb90-4a65-b38e-4348dbfaac16)
 
 
 
-- *What are the platforms that had the most successful games (in terms of global copies sold)?*
+- *Which platforms had the most successful games?*
   
 PlayStation 2 (PS2) was the platform that sold the most and publishers released more games too. By taking the proportion of sales relative to the number of games released, it is possible to roughly estimate how much each game of that platform sold (considering that the games sold the same amount equally). This demonstrates how popular, in general, the games of a specific platform were. Using this metric, the platform with the highest proportional number of copies of games sold was the GameBoy (GB), in which each game released for this platform sold approximately 2.7 million copies.
 
 ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/a47f4979-3481-45ac-b93f-fde139f4c194) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/0c4a905a-a819-48e1-bf94-3fb6aa183c6d)
 
 
-## The Most Popular Games Around the Globe
-- *The top 10 games that sold the most from 1980 to 2016* 
 
-![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/d7264483-6767-452a-9b8c-81279c825970)
+## Market segmentation
+
+Investigating how different cultural backgrounds influence which games and genres are more popular and the need for market segmentation in the games industry.
+
+
+- *Top 10 games: global and regional successes*
+  
+The query below outputs the top 10 games in terms of global sales and the level of popularity of these games in each region. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Eurupe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
+
+Another important observation is that 7 of the top 10 games were published by Nintendo, showcasing how prominent the company is in the field of games.
+
+
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/f8ad21a5-72c4-404d-8cf0-e81a4415755f) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/a5206c7c-48b5-4fbc-b4a4-feb1811c1564)
+
+
+- *Genre preferences*
+  
+As shown before, it seemed obvious that North America, Europe and Japan have different tastes in terms of games and game genres. Indeed, Role-Playing games 
+
+
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/cdc328bd-5ab9-415a-b481-b2d0c80ea70b) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/9c198500-044c-43f8-b54a-c77866e59795)
+
 
