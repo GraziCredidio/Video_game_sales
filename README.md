@@ -52,7 +52,6 @@ Action games were the leader both in the number of games released (3346) and glo
  ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e733ff25-d500-493f-9ff5-a9b5652dfff0) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/63553b53-563d-477e-abdf-4594a9c91b51)
 
 
-
 - *Which year sold the most?*
   
 The year 2008 had the highest global sales (with over 684 million units sold), however, 2009 was the year with the highest amount of games released (1438 games in 2009 versus the 1435 games in 2008). It seems that, despite being lower in number, the games launched in 2008 were more popular than the ones released in 2009. As one could expect, the year with the lowest number of games released and global sales was 1980 (not shown in the image).
@@ -76,7 +75,9 @@ Investigating how different the preferences for games and genres are in each reg
 
 - *Top 10 games: global versus regional successes and contribution of regions to global sales*
   
-The query below outputs the top 10 games in terms of global sales and the level of popularity of these games in each region. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Europe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
+The query below outputs the top 10 games in terms of global sales, their publishers, genres, their popularity in each region and the contribution of these regions to the global sales. 
+
+Out of the 12 existing genres (in this dataset), 7 had games among the 10 top sellers. No game belonging to the genres adventure, fighting, miscellaneous, simulation and strategy is on the top 10 best sellers. A sales pattern seems to be in place: shooter and action games are not popular in Japan, while they are well-accepted in North America and Europe. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Europe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
 
 Another important observation is that 7 of the top 10 games were published by Nintendo, showcasing how prominent the company is in the field of games.
 
