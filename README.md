@@ -33,7 +33,7 @@ The DDL employed can be found in the file "video_games_database_design".
 
 ![Database_design](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/c1b714ab-20af-4d90-9a24-ed35026d617a)
 
-# Data Exploration
+# Key findings 
 A series of SQL queries were carried out and data exploration was split into 5 main blocks: 
 - General trends and quantities
 - Globally successful games
@@ -70,12 +70,28 @@ PlayStation 2 (PS2) was the platform that sold the most and publishers released 
 
 ## Market segmentation
 
-Investigating how different the preferences for games and genres are in each region and the need for market segmentation in the games industry.
+Investigating how different the preferences for games, genres and platforms are in each region and the need for market segmentation in the games industry.
+
+- *What are the preferred platforms in each region?*
+
+Interestingly, the preferred platforms of each region belong to different manufacturers. The Japanese seem to be huge fans of the portable console Nintendo DS, while Microsoft was very successful in North America with the Xbox 360 and Sony in Europe with the PlayStation 2. Many factors may have contributed to this discrepancy, such as directed marketing campaigns, exclusive games of each platform, final price, availability of customer support, regional special offers etc. 
+
+  ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/f5358b34-3747-4a62-8d9c-5877bf69f62f) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/f7409a9c-5183-438b-8af3-f6a6d17d2ecc)
+
+
+
+- *Genre preferences*
+  
+North America, Europe and Japan have different tastes in terms of games and game genres. For example, role-playing games are very popular among Japanese, while Action games are the preference among Westerners (Europeans and North Americans).
+
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/cdc328bd-5ab9-415a-b481-b2d0c80ea70b) 
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/9c198500-044c-43f8-b54a-c77866e59795)
+
 
 
 - *Top 10 games: global versus regional successes and contribution of regions to global sales*
   
-The query below outputs the top 10 games in terms of global sales, their publishers, genres, their popularity in each region and the contribution of these regions to the global sales. 
+To further investigate on regional differences, the query below outputs the top 10 games in terms of global sales, their publishers, genres, their popularity in each region and the contribution of these regions to global sales. 
 
 Out of the 12 existing genres (in this dataset), 7 had games among the 10 top sellers. No game belonging to the genres adventure, fighting, miscellaneous, simulation and strategy is on the top 10 best sellers. A sales pattern seems to be in place: shooter and action games are not popular in Japan, while they are well-accepted in North America and Europe. This way, it becomes clear that while some games are very appreciated in some regions, they are not so popular in others. An example is "Grand Theft Auto V", which is the 2nd most purchased game in Europe and 5th in North America, but it is only in the 113th position in Japan. The Call of Duty franchise does not seem to be very popular among Japanese too. On the other hand, Pokemon Red/Blue is the top 1 game in Japan but comes in 22nd place in NA and 18th in Europe. 
 
@@ -87,13 +103,23 @@ Only two games (Pokemon Red/Blue and New Super Mario Bros.) did not have a clear
 ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/88944398-f90a-4c1e-a8cc-4ffc47e79233) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/e6e676bd-8882-472d-8580-578f79c252da)
 
 
-- *Genre preferences*
+## Publishers behind the most successful games 
+- *Companies that sold the most, the number of games they released, and their regional market share*
+
+As suspected, Nintendo is the leader in the number of copies sold globally given their prominent role in the top 10 games analysis made previously. However, surprisingly, the number of games published by Nintendo is almost half (approx. 52%) of the second place (Electronic Arts - EA). This indicates that, although Nintendo releases fewer games, they are very popular, while EA may have published games that did not perform well. In addition, among the top 10 publishers, while Europe was not the leader in sales for any of the publishers, Japan was responsible for over 50% of the sales of Namco Bandai Games. The other publishers show a stronger presence in the North American market. The European market seems to behave similarly to the North American in general, with some exceptions like Nintendo, Sega, and Capcom. However, some companies have their sales spread across the globe in a fairly equal proportion (e.g.: Konami Digital Entertainment)
+
+
+![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/a8da10cf-ac52-4d25-a85e-29b95c41894c) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/976ae493-a108-429d-8e2a-364a8dd25501)
+
+- *Identifying publishers that may rely on their "one-hit wonder"*
+
+Some companies may have their revenue relying mostly upon a single game.
+
+
+## User vs. Critics games scores
+
+
+- *Most acclaimed games by the critics*
   
-As shown before, it seemed obvious that North America, Europe and Japan have different tastes in terms of games and game genres. Indeed, Role-Playing games are very popular among Japanese, while Action games are the preference among Westerners (Europeans and North Americans). 
+-  *Most acclaimed games by the users*
 
-![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/cdc328bd-5ab9-415a-b481-b2d0c80ea70b) 
-![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/9c198500-044c-43f8-b54a-c77866e59795)
-
-
-
-- *Most acclaimed games by the critics and users*
