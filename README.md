@@ -1,4 +1,4 @@
-# Global and Regional Video Game Sales Trends
+![Alicia-VideoGames-1480](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/c5a33241-5de4-48b1-b5c1-89609874b1b9)
 
 # Table of Contents
 - [Project Overview](#Project-Overview)
