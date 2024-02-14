@@ -9,7 +9,7 @@
   - [General Trends](##General-Trends-and-Quantities)
   - [Market Segmentation](##Market-Segmentation)
   - [Publishers behind the most successful games](##Publishers-behind-the-most-successful-games)
-
+- [Final Thoughts](#Final-Thoughts)
 
 # Project Overview
 This analysis aimed to explore in-depth the dynamic world of video games, specifically to compare global and regional sales trends of games released from 1980 to 2016. Which publishers are behind the most successful games in each region, what are the most popular genres, which games sold the most each year, and how do the consumer habits of North Americans, Japanese and Europeans differ when choosing platforms and genders to play are examples of some of the questions approached by this project. SQL was used to construct a database and perform explorative queries, that were further gathered into an interactive dashboard using Tableau. 
@@ -128,5 +128,13 @@ Some companies may have their revenue relying mostly upon a single release. It i
 
 ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/6647ebcc-31fd-450c-9393-ff32c1a82525) ![image](https://github.com/GraziCredidio/Video_game_sales/assets/104797916/a84b6a3f-92a9-4d83-99b6-196d1dd38481)
 
+
+# Final Thoughts
+With this analysis, it is clear that until 2016 there was a clear distinction in player habits and preferences among Japanese, North Americans and Europeans. The market segment that contributed the most to sales was North America. However, Role-Playing games were sold the most in Japan, depicting the huge success that this genre has in this region. These consumer patterns vary not only in the game genre but also in the platform that sells the most in these regions. In addition, the most successful publishers were evaluated in terms of number of copies sold, revealing also different business strategies. 
+
+This project used the number of copies sold as the main metric for evaluating the performance of genres, platforms, publishers, and games. It is important to keep in mind that depending on the business model of a company, the amount of units sold does not directly correlate with the revenue generated. An example of a relatively more recent business strategy is companies that rely their revenue mostly on in-game purchases rather than selling more units. These games are, commonly, free to play and sell items or aesthetic modifications that the player can buy inside the game. Since this practice has been applied on a larger scale in the last few years, this may not affect the present analysis. It is, however, unclear whether the number of copies sold also includes downloadable games. Another possible limitation of analyzing this industry segment is that many companies decided not to share their sales data anymore, which compromises a follow-up analysis using updated data. 
+
+
+In addition, the games industry has been facing profound changes in their structure. It became a common practice for a variety of publishers to be acquired by a single bigger company. An interesting follow-up on this analysis would be to aggregate publishers to the companies that they are owned, revealing that the multimillionaire games market may not be as segmented as the public perceives it to be. 
 
 
